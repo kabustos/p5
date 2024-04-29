@@ -10,5 +10,5 @@ https://genuary.art/
 !["[Particles] Alternative Eclipse"](./screenshots/0.particles.png)
 
 
-##### [NoPalette]  : TBD
+##### [NoPalette]  : Summer Mist : 4/28
 !["[No Palette] Summer Mist"](./screenshots/1.noPalette.jpeg)
