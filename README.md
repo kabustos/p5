@@ -11,3 +11,4 @@ https://genuary.art/
 
 
 ##### [NoPalette]  : TBD
+!["[No Palette] Summer Mist"](./screenshots/1.noPalette.jpeg)
