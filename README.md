@@ -11,7 +11,7 @@ https://genuary.art/
 
 
 ##### [NoPalette] Summer Mist : 4/28
-!["[No Palette] Summer Mist"](./screenshots/1.noPalette.jpeg)
+!["[No Palette] Summer Mist"](./screenshots/1.noPalette.png)
 
 
 ##### [DrosteEffect] WIP

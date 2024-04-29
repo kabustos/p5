@@ -1,21 +1,23 @@
 function setup() {
     createCanvas(600, 600);
-    fill(255, 
-        255,  
-        255);
+    fill(255, 255, 255);
   }
   
   function draw() {
-    background(220);
-    let c = rbgMixRandom(255, 255, 255, 0.6)
+    let c = rbgMixRandom(255, 255, 255, 0.7)
     fill(c);
-    triangle(300, 100, 150, 300, 450, 300)
+    generateTriangles(600, 600);
 
-    x = getRandomInt(0, 600)
-    y = getRandomInt(0, 600)
+    console.log(rbgMixRandom(255, 255, 255, 0.5))
+    let baseColor = color(137, 206, 237)
+    fill(baseColor);
+    triangle(300, 150, 150, 350, 450, 350)
+
+    x = random(600)
+    y = random(600)
 
     if (mouseIsPressed){
-        let c = rbgMixRandom(255, 255, 255, 0.6)
+        let c = rbgMixRandom(255, 255, 255, 0.5)
         fill(c);
         triangle(x, y, x + 50, y + 60, x + 90, y + 60)
     }
@@ -23,12 +25,6 @@ function setup() {
 
 
 // helpers
-function getRandomInt(min, max) {
-  min = Math.ceil(min);
-  max = Math.floor(max);
-  return Math.floor(Math.random() * (max - min + 1)) + min;
-}
-
 function rbgMixRandom(red, green, blue, weight){
     let r, g, b;
 
@@ -44,6 +40,18 @@ function rbgMixRandom(red, green, blue, weight){
     b = (1-weight) * b + weight * blue;
 
     return color(r, g, b)
+}
+
+function generateTriangles(width, height){
+    x = random(600)
+    y = random(600)
+
+    x1 = x - 50;
+    x2 = x + 50;
+    y1 = y+ 50;
+    
+    stroke(50) 
+    return triangle(x, y, x1, y1, x2, y1)
 }
 
 //TO DO:
