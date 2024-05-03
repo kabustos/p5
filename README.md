@@ -14,4 +14,6 @@ https://genuary.art/
 !["[No Palette] Summer Mist"](./screenshots/1.noPalette.png)
 
 
-##### [DrosteEffect] WIP
+##### [DrosteEffect] Look Over There : 5/3
+!["[Droste Effect] Look Over There"](./screenshots/2.dorsteEffect.png)
+
