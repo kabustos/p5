@@ -1,3 +1,8 @@
+/*
+INTERACTIVE
+- Click to populate screen with skewed triangles
+*/
+
 function setup() {
     createCanvas(600, 600);
     fill(255, 255, 255);

@@ -1,3 +1,9 @@
+/*
+INTERACTIVE
+- Click to populate screen with stars
+*/
+
+
 function getRandomInt(min, max) {
   min = Math.ceil(min);
   max = Math.floor(max);

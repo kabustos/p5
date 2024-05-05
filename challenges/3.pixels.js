@@ -1,3 +1,9 @@
+/*
+INTERACTIVE
+- Move cursor along screen to see colors change
+- Click to clear the screen
+*/
+
 function setup(){
  createCanvas(765, 600);
  background(51);
