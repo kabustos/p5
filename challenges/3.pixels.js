@@ -13,11 +13,13 @@ function draw(){
 		fill(mouseX, 0, 0)
 	}
 	if(mouseX > redX && mouseX <= greenX){
-		fill(0, greenX, 0)
+		scaled = Math.floor(mouseX / 2)
+		fill(0, scaled, 0)
 	}
 
 	if(mouseX > greenX && mouseX <= blueX){
-		fill(0, 0, blueX)
+		scaled = Math.floor(mouseX / 3)
+		fill(0, 0, scaled)
 	}
 }
 
