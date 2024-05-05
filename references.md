@@ -1,4 +1,4 @@
-Articles I references while completing each challenge:
+Articles I referenced while completing each challenge:
 
 1.noPalette
 
